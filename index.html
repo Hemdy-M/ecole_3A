@@ -7,8 +7,27 @@
     <title>3eA Cours</title>
 </head>
 <body>
-    <header id="nav">
-    </header>
+    <header id="nav"></header>
+
+
+    <main>
+        <h1>cours école - 3e</h1>
+        <div class="hello_card">
+            <p>
+                Bonjour à tous ! Ici Hemdy, le créateur et développeur du site.
+                Sur ce site vous y trouverez des cours sur les matière suivante :
+                Français, SVT, Physique-Chimie et Mathématiques.
+                (Moyen de contact dans le pied-de-page.)
+            </p>
+        </div>
+    </main>
+
+
+    <footer>
+        <span id="contact">
+            Contact : <a href="mailto:hmameche@clglienart.fr">hmameche@clglienart.fr</a>
+        </span>
+    </footer>
 
     <!-- Injected JS Code-->
     <script>
@@ -22,6 +41,7 @@
         for (let i = 0; i < cours_list_1.length; i += 1) {
             let link = document.createElement("a")
             link.setAttribute("href", cours_list_1[i] + ".index.html")
+            link.setAttribute("class", "nav_attribute")
             link.innerHTML = cours_list_2[i].toUpperCase()
 
             nav.appendChild(link)

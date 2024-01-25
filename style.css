@@ -3,10 +3,32 @@
     --background-nav_color : #00224f;
 }
 
-a {
+.hello_card {
+    font-size: 18px;
+    background-color: white;
+    border-radius: 1.5%;
+}
+
+#contact {
+    color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.nav_attribute {
+    font-size: 1.5rem;
+    color: whitesmoke;
     text-decoration: none;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.nav_attribute:hover {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: var(--background-color);
 }
 
 .lesson {
@@ -19,4 +41,8 @@ body {
 
 nav {
     background-color: var(--background-nav_color);
+}
+
+footer {
+    background-color: black;
 }
