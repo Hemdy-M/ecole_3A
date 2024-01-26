@@ -12,19 +12,27 @@ main {
     grid-template-rows: repeat(3, 1fr);
     row-gap: 15px;
     column-gap: 15px;
+    margin: 15px;
 }
 
 body {
     background-color: var(--background-color);
 }
 
-.hello_card {
+div {
     font-size: 18px;
-    font-family: "Afacad";
     background-color: white;
-    border-radius: 1.5%;
+    border-radius: .5rem;
+}
 
-    grid-column-start: 2;
+.hello_card {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.more_info {
+    grid-column: 1;
+    grid-row: 3;
 }
 
 #contact {
@@ -73,3 +81,9 @@ nav {
 footer {
     background-color: black;
 }
+
+/*
+    #br15 {
+        margin: 15px;
+    }
+*/
